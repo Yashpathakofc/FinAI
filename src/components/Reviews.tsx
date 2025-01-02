@@ -44,7 +44,7 @@ const Reviews: React.FC = () => {
     {
       name: "Yash Pathak",
       role: "Investor",
-      image: "./Yash.jpeg", // Replace with the actual image path
+      image: "./Yash (3).jpeg", // Replace with the actual image path
       text: "Financial GenAI Services revolutionized my investments—Jia is a game-changer!",
       rating: 5,
     },
