@@ -10,7 +10,7 @@ interface ReviewCardProps {
 
 const ReviewCard: React.FC<ReviewCardProps> = ({ name, role, image, text, rating }) => {
   return (
-    <div className="flex flex-col items-center text-center p-6 bg-gray-100 rounded-lg shadow-md mx-4 transform transition-transform hover:-translate-y-2 hover:shadow-lg hover:ring-2 hover:ring-pink-500">
+    <div className="flex flex-col items-center text-center p-6 bg-grey-100 rounded-lg shadow-md mx-4 transform transition-transform hover:-translate-y-2 hover:shadow-lg hover:ring-2 hover:ring-pink-500">
       <div className="flex justify-center mb-4">
         {[...Array(rating)].map((_, i) => (
           <span key={i} className="text-pink-500 text-lg">&#9733;</span>
@@ -21,7 +21,7 @@ const ReviewCard: React.FC<ReviewCardProps> = ({ name, role, image, text, rating
         <img
           src={image}
           alt={name}
-          className="w-12 h-12 rounded-full border border-gray-300 mr-4"
+          className="w-12 h-12 rounded-full border border-grey-300 mr-4"
         />
         <div>
           <h3 className="font-semibold text-gray-800">{name}</h3>
@@ -58,7 +58,7 @@ const Reviews: React.FC = () => {
   ];
 
   return (
-    <section className="py-10 bg-gray-50">
+    <section className="py-10 bg-white"> {/* Changed background color to white */}
       <div className="text-center mb-8">
         <h2 className="text-sm font-bold text-pink-600 uppercase">Testimonial</h2>
         <h1 className="text-3xl font-bold text-gray-800">What Our Clients Say About Us</h1>

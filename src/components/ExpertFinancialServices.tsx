@@ -20,7 +20,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ icon, title, description }) =
 
 const ExpertFinancialServices: React.FC = () => {
   return (
-    <section className="py-10 px-6 bg-gray-50">
+    <section className="py-10 px-6 bg-white"> {/* Changed background color to white */}
       <div className="text-center mb-8">
         <h2 className="text-sm font-bold text-pink-600 uppercase">Comprehensive Solutions</h2>
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-800">Expert Financial Services</h1>

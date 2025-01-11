@@ -2,7 +2,7 @@ import React from 'react';
 
 const FinancialServices: React.FC = () => {
   return (
-    <div className="flex flex-col lg:flex-row bg-gray-50">
+    <div className="flex flex-col lg:flex-row bg-white"> {/* Changed background color to white */}
       {/* Left Section with Image and Blue Border */}
       <div className="relative lg:w-1/2 p-6 lg:p-12">
         {/* Blue Border */}
@@ -62,4 +62,3 @@ const FinancialServices: React.FC = () => {
 };
 
 export default FinancialServices;
-  

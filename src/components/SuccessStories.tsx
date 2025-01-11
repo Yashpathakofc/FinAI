@@ -14,7 +14,7 @@ const SuccessStories: React.FC = () => {
   ];
 
   return (
-    <section className="py-16 bg-gray-100">
+    <section className="py-16 bg-white-100">
       <div className="container mx-auto px-6">
         {/* Header Section */}
         <div className="flex flex-col sm:flex-row justify-between items-center mb-10">
